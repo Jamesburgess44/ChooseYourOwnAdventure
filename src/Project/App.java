@@ -14,11 +14,11 @@ public class App {
 		
 		
 		while (isSelecting = true) {
-		System.out.println("What would you like to do?");
-		System.out.println("Press 1 to choose a setting");
-		System.out.println("Press 2 to choose a weapon");
-		System.out.println("Press 3 to choose a villain");
-		System.out.println("Press 4 to go on an adventure!");
+		print("What would you like to do?");
+		print("Press 1 to choose a setting");
+		print("Press 2 to choose a weapon");
+		print("Press 3 to choose a villain");
+		print("Press 4 to go on an adventure!");
 		String response = input("please make a selection");
 		switch(response) {
 		case "1":
